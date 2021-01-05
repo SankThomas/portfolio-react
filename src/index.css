@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo h2 {
+  font-family: 'Hanalei Fill', cursive;
+}
+
+/* Showcase */
+.showcase {
+  height: 100vh;
+  background: url('./assets/showcase.jpg') no-repeat center/cover;
+}
+
+.showcase .overlay {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
 }

@@ -1,0 +1,11 @@
+1. Images folder
+2. Assets folder
+3. Deploy to GitHub
+4. Deploy to Netlify
+
+npm i react-router-dom
+npm i react-icons --save
+
+OR
+
+npm i react-router-dom react-icons --save
